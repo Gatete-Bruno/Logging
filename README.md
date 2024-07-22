@@ -10,9 +10,9 @@ Helm installed
 1. Clone the Repository
 ```bash
 git clone https://github.com/Gatete-Bruno/Logging
-
-DIR Structure
-
+```
+DIR Structure 
+```bash
 ├── README.md
 ├── elasticsearch
 │   ├── pv.yaml
