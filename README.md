@@ -70,7 +70,6 @@ Install Kibana
 cd kibana
 helm install kibana elastic/kibana --version="7.17.3" -f values.yaml
 cd ..
-cd ..
 ```
 
 Update Ingress Hostname
