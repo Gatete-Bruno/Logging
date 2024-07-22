@@ -10,7 +10,22 @@ Helm installed
 1. Clone the Repository
 ```bash
 git clone https://github.com/Gatete-Bruno/Logging
-cd elasticsearch-logstash-kibana-kubernetes
+├── README.md
+├── elasticsearch
+│   ├── pv.yaml
+│   └── values.yaml
+├── filebeat
+│   ├── filebeat.yaml
+│   ├── pv.yaml
+│   └── values.yaml
+├── kibana
+│   ├── kibana-ingress.yaml
+│   └── values.yaml
+└── logstach
+    ├── logstash-http-svc.yaml
+    ├── logstash-ingress.yaml
+    ├── pv.yaml
+    └── pvc.yaml
 ```
 
 2. Add the Helm Repo
