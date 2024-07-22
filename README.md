@@ -1,5 +1,5 @@
 
-# ELK Stack on Kubernetes
+# ELK Stack Setup on Kubernetes
 This repository contains Kubernetes YAMLs and Helm values files for setting up the ELK stack (Elasticsearch, Filebeat, Logstash, and Kibana) in a Kubernetes cluster.
 
 ### Prerequisites
