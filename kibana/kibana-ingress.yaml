@@ -16,7 +16,7 @@ metadata:
   name: kibana-ingress
 spec:
   rules:
-    - host: elk.democluster.com
+    - host: 192.168.1.60.nip.io
       http:
         paths:
         - backend:
